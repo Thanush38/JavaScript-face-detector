@@ -6,23 +6,20 @@
     <title>Face Detection</title>
     <script defer src="face-api.min.js"></script>
     <script defer src="script.js"></script>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        canvas {
-            position: absolute;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <video id="video" width="720" height="560" autoplay muted></video>
+    
+    <div class="Container">
+    <div class="navbar">
+        <h1>Face Detection</h1>
+    </div>
+    <div class="Video">
+        <video id="video" width="720" height="560" autoplay muted></video>
+    </div>
+    <div class="info">
+        <h2>This project was created by Thanush Dinesh. To see more of his work please visit <a href="https://thanushdinesh.com/">Thanush's Portfolio</a></h2>
+    </div>
+</div>
 </body>
 </html>
